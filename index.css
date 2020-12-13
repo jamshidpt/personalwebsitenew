@@ -1,0 +1,100 @@
+  
+  html,body{
+    height: 100%;
+    width: 100%;
+    }
+ .navbar{
+    height: 5em;
+    background: rgb(91, 240, 158);
+   }
+   .navbar-nav{
+     background: whitesmoke;
+   }
+   
+  .nav-item:hover{
+    background: white;
+    border-radius: 5px;
+    
+  }
+  #home{
+  padding-top: 22em;
+  padding-bottom: 10em;
+     }
+  #img{
+    height: 13em;
+    width: 13em;
+    margin-top: -15em;
+    margin-left: -16em;
+  }
+#domain{
+  margin-top: -4em;
+  margin-left: -2em;
+}
+.logos{
+  margin-top: 5em;
+    width: 20em;
+}
+
+#about{background:gray;}
+#Skills{background: #cee276;
+      
+}
+.skilltable{
+  width: 53em;
+  height: 19em;
+}
+
+.row1{
+  color: rgb(218, 15, 76);
+}
+
+  
+  @media (max-width: 576px) {
+
+    table th,td{font-size: 10px;}
+    
+    #Connect{padding-top: 5rem;}
+  
+              
+    }
+  .logos{margin-top: 1em;}
+     
+    
+  @media (min-width: 577px) {
+      table th,td{font-size:15px;}
+      
+      
+   }
+  @media (min-width: 990px) {
+      table th,td{font-size: 30px;}
+    }
+ @media (max-width: 768px){
+        #img{ margin-left: -1em;}
+  #domain{
+    margin-top: 1em;
+    margin-left: 0em;
+    font-size: 25px;
+  }
+    #home{padding-bottom: 6em;}
+    
+    #Projects{padding-bottom: 0em;}
+}
+
+@media (min-width: 768px){
+  .navbar-nav{
+    background: rgb(91, 240, 158); }  
+  .contactform{ padding-left: 20em;}
+}
+@media (min-width: 990px) {
+  .myname{
+    margin-left: 3em;
+    font-size: 2em;
+    
+  }
+  }
+ 
+
+
+
+
+
